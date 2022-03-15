@@ -13,9 +13,12 @@ print(n)
 102: "Dio"
 """
 
-
-n=int(input("Enter:"))
+print("-----Welocome-----")
+n=int(input("Enter your Matriculation Number:"))
 if n==101:
-    print("Dip")
+    print("Name- Dipon\n Email: acb@gmail.com \n Mobile Number=00000.\n Department- EEE.")
 elif n==102:
-    print("Raj")
+    print("Name- Suraj\n Email: acb1@gmail.com \n Mobile Number=000001.\n Department- CSE.")
+
+else:
+    print("You are not registed yet.")
